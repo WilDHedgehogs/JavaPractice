@@ -12,6 +12,7 @@ public class MultiplicationTable {
 
         System.out.print("Enter number: ");
         number = Integer.parseInt(bufferedReader.readLine());
+        bufferedReader.close();
 
         System.out.println("Simple result:");
         MultiplyNumber(number);

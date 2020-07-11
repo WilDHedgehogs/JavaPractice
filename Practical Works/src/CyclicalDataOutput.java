@@ -1,7 +1,8 @@
 
-//Цикличный вывод данных
+//Задача №8: Цикличный вывод данных на экран.
 public class CyclicalDataOutput {
 
+    //Цикличный вывод данных.
     public static void main(String[] args) {
 
         for (int i = 1; i <= 50; i++) {

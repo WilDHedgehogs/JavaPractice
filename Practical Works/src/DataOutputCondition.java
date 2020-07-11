@@ -2,9 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//Условие вывода данных
+//Задача №7: Условие вывода данных.
 public class DataOutputCondition {
 
+    //Условие вывода данных.
     public static void main(String[] args) throws IOException {
 
         //Константы

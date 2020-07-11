@@ -3,9 +3,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//Перевод из двоичной в десятичную систему счислений.
+//Задача №4: Отработка поразрядных операций.
 public class BinaryToDecimalTransformer {
 
+    //Перевод из двоичной в десятичную систему счислений.
     public static void main(String[] args) throws IOException {
 
         System.out.print("Enter number binary number: ");

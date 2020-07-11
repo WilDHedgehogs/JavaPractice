@@ -2,9 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//Арифметические операции.
+//Задача №6: Отработка арифметических операций.
 public class ArithmeticOperations {
 
+    //Арифметические операции.
     public static void main(String[] args) throws IOException {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

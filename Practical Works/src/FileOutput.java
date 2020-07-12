@@ -9,9 +9,7 @@ public class FileOutput {
     public static void main(String[] args) throws IOException {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
-        System.out.print("Enter file path and name: ");
-        String fileName = bufferedReader.readLine();
+        String fileName = "./src/tempFile.txt";
 
         String line;
         System.out.println("Enter 'stop' to end");

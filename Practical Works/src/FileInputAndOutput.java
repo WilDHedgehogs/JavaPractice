@@ -7,8 +7,7 @@ public class FileInputAndOutput {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.print("Enter file path and name: ");
-        String fileName = bufferedReader.readLine();
+        String fileName = "./src/potter.txt";
         int lineCount = 0;
 
         //Вывод из файла.

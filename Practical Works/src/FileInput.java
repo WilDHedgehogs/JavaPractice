@@ -7,7 +7,7 @@ public class FileInput {
 
     public static void main(String[] args) throws IOException {
 
-        String fileName = "./src/potter.txt";
+        String fileName = "./resources/potter.txt";
 
         String line;
         try (BufferedReader fileReader = new BufferedReader(new FileReader(fileName))) {

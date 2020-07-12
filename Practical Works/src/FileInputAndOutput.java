@@ -7,7 +7,7 @@ public class FileInputAndOutput {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        String fileName = "./src/potter.txt";
+        String fileName = "./resources/potter.txt";
         int lineCount = 0;
 
         //Вывод из файла.
